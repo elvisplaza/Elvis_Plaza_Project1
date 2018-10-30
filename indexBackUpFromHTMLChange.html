@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styleBackUpFromHTMLChange.css">
+    <title>Welcome to Summit</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <section class="topHeader clearfix">
+                    <div class="topHeader_title">
+                        <h1>summit</h1>
+                    </div>
+                    <div class="topHeader_nav">
+                            <label for="toggle"><i class="fas fa-bars"></i></label>
+                            <input type="checkbox" id="toggle" name="toggle">
+                        <nav>
+                            <ul>
+                                <li>home</li>
+                                <li>about</li>
+                                <li>blog</li>
+                                <li>contact</li>
+                            </ul>
+                        </nav>
+                    </div>
+            </section>
+            <section class="heroContent clearfix">
+                    <div class="heroContent_title">
+                        <h4>welcome to</h4>
+                        <h2>summit</h2>
+                    </div>
+            </section>
+            <section class="socialMedia">
+                <nav>
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="about wrapper">
+            <div class="about_content">
+                <h3>about summit</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque asperiores corporis sequi officia commodi. Commodi quia minima saepe cum, modi, reiciendis non facilis excepturi eos asperiores esse. Aut, ea labore?</p>
+                <a>find out more</a>
+            </div>
+        </section>
+        <section class="peakPhotos clearfix">
+            <div class="peakPhotos_img--left">
+                <img src="./assets/image-2.jpg" alt=" a blurred flower branch on the left side of the panel with a mountain in the background covered in snow.">
+            </div>
+            <div class="peakPhotos_content--right">
+                <div class="peakPhotos_content">
+                    <h4>peak photos</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam minus expedita! Aut praesentium accusantium similique! Perspiciatis veniam numquam odit sunt quasi officiis ipsa provident totam omnis, nam possimus corrupti?</p>
+                    <a>read more</a>
+                </div>         
+            </div>
+        </section>
+        <section class="packingEssentials clearfix">
+            <div class="packingEssentials_img--right">
+                <img src="./assets/image-3.jpg" alt="A photo from the sky with the wing of a plane on the left side of the panel, looking down on a row of mountain top">
+            </div>
+            <div class="packingEssentials_content--left">
+                <div class="packingEssentials_content">
+                    <h4>packing Essentials</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam minus expedita! Aut praesentium accusantium similique! Perspiciatis veniam numquam odit sunt quasi officiis ipsa provident totam omnis, nam possimus corrupti?</p>
+                    <a>read more</a>
+                </div>         
+            </div>
+        </section>
+        <section class="pageBreak_background">
+            <div class="pageBreak clearfix">
+                <div class="pageBreak_content gallery">
+                    <i class="far fa-images"></i>
+                    <h5>gallery</h5>
+                </div>
+                <div class="pageBreak_content about">
+                    <i class="fas fa-user-alt"></i>
+                    <h5>about</h5>
+                </div>
+                <div class="pageBreak_content contact">
+                    <i class="fas fa-envelope"></i>
+                    <h5>contact</h5>
+                </div>
+            </div>
+        </section>
+        <section class="aboutMe_background">
+            <div class="wrapper clearfix">
+                <div class="aboutMe_image--left">
+                    <img src="./assets/image-4.jpg" alt="a picture of the author who is smiling. the photo is a headshot">
+                </div>
+                <div class="aboutMe_content--right">
+                    <h3>about me</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora commodi ut voluptatem quibusdam libero culpa alias cum nisi eaque beatae, impedit numquam adipisci consequuntur iste consequatur? Ipsum, modi obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt sed aliquid error ullam minima laboriosam cumque rerum, officiis ut iusto, tempore harum beatae molestiae! Consequatur nihil odio facere labore.</p>
+                    <a>find out more</a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="photoGallery wrapper clearfix">
+            <div class="photoGallery_image">
+                <img src="./assets/image-5.jpg" alt="a view of the top of a forest, with rolling mountains in the background">
+            </div>
+            <div class="photoGallery_image">
+                <img src="./assets/image-6.jpg" alt="a picture of a moutanin peak with white snow covering it">
+            </div>
+            <div class="photoGallery_image">
+                <img src="./assets/image-7.jpg" alt="a landscape view of the lake with a snowy mountain hill in the background">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="wrapper clearfix">
+            <div class="footer_content">
+                <h6>stay updated</h6>
+                <p>subscribe to our newsletter for updates.</p>
+                <form action="sendEmail.php" class="footer_email" method="POST" name="myForm">
+                    <input type="text" name="emaail" placeholder="email address" required="true">
+                    <button>subscribe</button>
+                </form>
+            </div>
+            <div class="footer_content">
+                <h6>contact</h6>
+                <ul>
+                    <li>info@email.com</li>
+                    <li>123-456-7890</li>
+                    <li>123 some road,</li>
+                    <li>Toronto, ON</li>
+                </ul>
+            </div>
+            <div class="footer_content footer_content--uppercase">
+                <h6>pages</h6>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>blog</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer_content footer_content--capitalize">
+                <h6>recent posts</h6>
+                <ul>
+                    <li>climbing tips</li>
+                    <li>photography guide</li>
+                    <li>top mountains</li>
+                    <li>everest</li>
+                </ul>
+            </div>
+        </section>
+        <section class="footerCopyright_background">
+            <div class="wrapper">
+                <p>copyright © 2018 hackerYou</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
